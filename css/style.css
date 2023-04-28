@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
 *{
     margin: 0;
     padding: 0;
-}
+    font-family: 'New Tegomin', serif;}
 
 .body{
     min-height: 100vh;
@@ -11,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    /* flex-direction: row-reverse; */
 
 }
 
@@ -24,14 +26,39 @@
     grid-template-columns: repeat(18,1fr);
 }
 
-.head{
+.head {
     background-color: red;
+    border-radius: 10px;
+    border: solid purple 0.5px;
+    transform: scale(1.03);
 }
 
-.snake{
-    background-color: purple;
+.snake {
+    background: linear-gradient(45deg, #83cf2b, #2ba72f);
+    border-radius: 50%;
+    box-shadow: 0pc 6px 15px grey;
 }
 
-.food{
-    background-color: yellow ;
+.food {
+    background: linear-gradient(45deg, purple,red);
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
+
+
+#scoreBox{
+   position: absolute;
+   top: 9px;
+   margin-left: 80%;
+   font-size: 40px;
+
+}
+#hiscoreBox{
+   position: absolute;
+   top: 55px;
+   margin-left: 73%;
+   font-size: 40px;
+
+}
+
