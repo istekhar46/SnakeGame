@@ -6,7 +6,7 @@
 
 .body{
     min-height: 100vh;
-    background-image: url(/bg.jpg);
+    background-image: url('https://github.com/istekhar46/SnakeGame/blob/main/bg.jpg?raw=true');
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     display: flex;
