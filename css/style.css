@@ -30,7 +30,7 @@
     background-color: red;
     border-radius: 10px;
     border: solid purple 0.5px;
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 
 .snake {
@@ -59,6 +59,14 @@
    top: 55px;
    margin-left: 73%;
    font-size: 40px;
+   
+}
 
+
+.creator{
+    top: 20px;
+    margin-right: 73%;
+    font-size: 40px;
+    position: absolute;
 }
 
