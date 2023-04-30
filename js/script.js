@@ -29,7 +29,7 @@ function iscollid(snake) {
             return true;
         }
     }
-    if (snake[0].x >= 22 || snake[0].x < 0 || snake[0].y >= 22 || snake[0].y < 0) {
+    if (snake[0].x >= 22 || snake[0].x <= 0 || snake[0].y >= 22 || snake[0].y <= 0) {
         return true;
     }
     
